@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  automate:
+  run_boxmine_afk:
     runs-on: ubuntu-latest
     timeout-minutes: 480
 
