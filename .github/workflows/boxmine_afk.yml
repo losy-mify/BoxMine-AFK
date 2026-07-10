@@ -48,6 +48,7 @@ jobs:
           PYTHONIOENCODING: utf-8
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           TG_BOT: ${{ secrets.TG_BOT }}
+          CRON_JOB: ${{ secrets.CRON_JOB }}
           GOST_PROXY: ${{ secrets.GOST_PROXY }}
         run: python boxmine_afk.py
 
